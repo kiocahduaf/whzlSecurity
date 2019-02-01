@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: whzlApi
+Implementation-Version: 3.2.0
+Built-By: Administrator
+Implementation-Vendor-Id: com.whzl
+Build-Jdk: 1.8.0_111
+Implementation-URL: http://www.renren.io/whzlApi
+Created-By: Maven Integration for Eclipse
+

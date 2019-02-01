@@ -1,0 +1,16 @@
+eclipse.preferences.version=1
+encoding//src/main/java=UTF-8
+encoding//src/main/resources=UTF-8
+encoding//src/main/resources/templates/modules/job/schedule.html=UTF-8
+encoding//src/main/resources/templates/modules/job/schedule_log.html=UTF-8
+encoding//src/main/resources/templates/modules/oss/oss.html=UTF-8
+encoding//src/main/resources/templates/modules/sys/config.html=UTF-8
+encoding//src/main/resources/templates/modules/sys/dept.html=UTF-8
+encoding//src/main/resources/templates/modules/sys/dict.html=UTF-8
+encoding//src/main/resources/templates/modules/sys/log.html=UTF-8
+encoding//src/main/resources/templates/modules/sys/menu.html=UTF-8
+encoding//src/main/resources/templates/modules/sys/role.html=UTF-8
+encoding//src/main/resources/templates/modules/sys/user.html=UTF-8
+encoding//src/test/java=UTF-8
+encoding/<project>=UTF-8
+separateDerivedEncodings=true
