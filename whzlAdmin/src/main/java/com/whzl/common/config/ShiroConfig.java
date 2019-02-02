@@ -45,15 +45,15 @@ public class ShiroConfig {
 
     @Bean("sessionManager")
     public SessionManager sessionManager(RedisShiroSessionDAO redisShiroSessionDAO,
-                                         @Value("${renren.redis.open}") boolean redisOpen,
-                                         @Value("${renren.shiro.redis}") boolean shiroRedis){
+                                         @Value("${whzl.redis.open}") boolean redisOpen,
+                                         @Value("${whzl.shiro.redis}") boolean shiroRedis){
         DefaultWebSessionManager sessionManager = new DefaultWebSessionManager();
         //设置session过期时间为1小时(单位：毫秒)，默认为30分钟
         sessionManager.setGlobalSessionTimeout(60 * 60 * 1000);
         sessionManager.setSessionValidationSchedulerEnabled(true);
         sessionManager.setSessionIdUrlRewritingEnabled(false);
 
-        //如果开启redis缓存且renren.shiro.redis=true，则shiro session存到redis里
+        //如果开启redis缓存且whzl.shiro.redis=true，则shiro session存到redis里
         if(redisOpen && shiroRedis){
             sessionManager.setSessionDAO(redisShiroSessionDAO);
         }
