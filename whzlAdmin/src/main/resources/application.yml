@@ -36,7 +36,7 @@ spring:
       request-context-attribute: request
 
 
-renren:
+whzl:
     redis:
         open: true  # 是否开启redis缓存  true开启   false关闭
     shiro:
